@@ -18,7 +18,8 @@ We follow [Airbnb's Javscript Styleguide](https://github.com/airbnb/javascript) 
   - Always declare `'use strict';` at the top of the module.
   - Pass in global vars like `jQuery` in as parameters.
   - Return a public API that gives access to necessary vars and functions
-
+  - Use [JSDoc](http://usejsdoc.org/) for documenting any API (public or not)
+  
     ```javascript
     // modules/myModule.js
 
